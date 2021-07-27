@@ -1,0 +1,89 @@
+#pageheader{
+	position: absolute;
+	background-color: #FBE7C6;
+	width: 100%;
+	margin-right: 0px;
+    top: 1px;
+   margin-left: 0px;
+
+}
+div.container-fluid{
+	padding: 0px;
+}
+
+.navbar-brand{
+	position: relative;
+	bottom: 27px;
+}
+h1{
+	padding-left: 10px;
+	font-weight: bold;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+hr{
+	 position: relative;
+            top: 50px;
+            border: none;
+            height: 2px;
+            background: black;
+            margin-bottom: 50px;
+}
+#section1,#section2,#section3{
+	border:1px solid grey;
+	background-color: grey;
+	margin: 10px;
+   }
+
+#menu,#chicken,#beef,#sushi{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 10px;
+	
+}
+#chicken,#beef,#sushi{
+	font-size: 1.5em;
+}
+#menu{
+	font-size: 2em;
+}
+#p1,#p2,#p3{
+	margin:4px;
+	 font-size: 1.25em;
+}
+}
+
+nav.navbar{
+	font-family: 
+}
+#section1{
+	background-color: #FFAEBC;
+}
+#section2{
+	background-color:#A0E7E5; 
+}
+#section3{
+	background-color: #B4F8C8;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+     
+     }
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+     
+   }
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+ hr{
+ 	top:50px;
+ }
+
+}
